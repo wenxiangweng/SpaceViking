@@ -8,8 +8,7 @@
 // -----------------------------------------------------------------------
 
 #import "AppDelegate.h"
-#import "IntroScene.h"
-#import "HelloWorldScene.h"
+#import "GamePlayScene.h"
 
 @implementation AppDelegate
 
@@ -48,8 +47,22 @@
 
 -(CCScene *)startScene
 {
+    [self _initResources];
+    
 	// This method should return the very first scene to be run when your app starts.
-	return [IntroScene scene];
+	return [GamePlayScene scene];
+}
+
+-(void)_initResources
+{
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"scene1atlas.plist"];
+        _sprteBatchNode = [CCSpriteBatchNode batchNodeWithFile:@"scene1atlas.png"];
+    } else {
+        
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"scene1atlasiPhone.plist"];
+        _sprteBatchNode = [CCSpriteBatchNode batchNodeWithFile:@"scene1atlasiPhone.png"];
+    }
 }
 
 @end

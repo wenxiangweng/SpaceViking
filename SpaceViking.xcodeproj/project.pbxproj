@@ -212,6 +212,34 @@
 		0C9169D118F1386C00938D36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9169D018F1386C00938D36 /* AppDelegate.m */; };
 		0C9169D418F1386C00938D36 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9169D318F1386C00938D36 /* HelloWorldScene.m */; };
 		0C9169D718F1386C00938D36 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9169D618F1386C00938D36 /* IntroScene.m */; };
+		0C9169FD18F1695100938D36 /* SneakyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9169F618F1695100938D36 /* SneakyButton.m */; };
+		0C9169FE18F1695100938D36 /* SneakyButtonSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9169F818F1695100938D36 /* SneakyButtonSkinnedBase.m */; };
+		0C9169FF18F1695100938D36 /* SneakyJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9169FA18F1695100938D36 /* SneakyJoystick.m */; };
+		0C916A0018F1695100938D36 /* SneakyJoystickSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9169FC18F1695100938D36 /* SneakyJoystickSkinnedBase.m */; };
+		0C916A0318F1722900938D36 /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C916A0218F1722900938D36 /* GamePlayScene.m */; };
+		0C916A0B18F1827900938D36 /* scene1atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A0518F1827900938D36 /* scene1atlas.plist */; };
+		0C916A0C18F1827900938D36 /* scene1atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A0618F1827900938D36 /* scene1atlas.png */; };
+		0C916A0D18F1827900938D36 /* scene1atlasiPhone-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A0718F1827900938D36 /* scene1atlasiPhone-hd.plist */; };
+		0C916A0E18F1827900938D36 /* scene1atlasiPhone-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A0818F1827900938D36 /* scene1atlasiPhone-hd.png */; };
+		0C916A0F18F1827900938D36 /* scene1atlasiPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A0918F1827900938D36 /* scene1atlasiPhone.plist */; };
+		0C916A1018F1827900938D36 /* scene1atlasiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A0A18F1827900938D36 /* scene1atlasiPhone.png */; };
+		0C916A1518F1972300938D36 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A1218F1972300938D36 /* background.png */; };
+		0C916A1618F1972300938D36 /* backgroundiPhone-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A1318F1972300938D36 /* backgroundiPhone-hd.png */; };
+		0C916A1718F1972300938D36 /* backgroundiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A1418F1972300938D36 /* backgroundiPhone.png */; };
+		0C916A2718F2830E00938D36 /* dpadDown-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A1918F2830E00938D36 /* dpadDown-hd.png */; };
+		0C916A2818F2830E00938D36 /* dpadDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A1A18F2830E00938D36 /* dpadDown.png */; };
+		0C916A2918F2830E00938D36 /* dpadUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A1B18F2830E00938D36 /* dpadUp.png */; };
+		0C916A2A18F2830E00938D36 /* handDown-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A1C18F2830E00938D36 /* handDown-hd.png */; };
+		0C916A2B18F2830E00938D36 /* handDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A1D18F2830E00938D36 /* handDown.png */; };
+		0C916A2C18F2830E00938D36 /* handUp-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A1E18F2830E00938D36 /* handUp-hd.png */; };
+		0C916A2D18F2830E00938D36 /* handUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A1F18F2830E00938D36 /* handUp.png */; };
+		0C916A2E18F2830E00938D36 /* joystickDown-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A2018F2830E00938D36 /* joystickDown-hd.png */; };
+		0C916A2F18F2830E00938D36 /* joystickDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A2118F2830E00938D36 /* joystickDown.png */; };
+		0C916A3018F2830E00938D36 /* joystickUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A2218F2830E00938D36 /* joystickUp.png */; };
+		0C916A3118F2830E00938D36 /* jumpDown-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A2318F2830E00938D36 /* jumpDown-hd.png */; };
+		0C916A3218F2830E00938D36 /* jumpDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A2418F2830E00938D36 /* jumpDown.png */; };
+		0C916A3318F2830E00938D36 /* jumpUp-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A2518F2830E00938D36 /* jumpUp-hd.png */; };
+		0C916A3418F2830E00938D36 /* jumpUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C916A2618F2830E00938D36 /* jumpUp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -653,6 +681,39 @@
 		0C9169D318F1386C00938D36 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		0C9169D518F1386C00938D36 /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		0C9169D618F1386C00938D36 /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		0C9169F518F1695100938D36 /* SneakyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyButton.h; sourceTree = "<group>"; };
+		0C9169F618F1695100938D36 /* SneakyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyButton.m; sourceTree = "<group>"; };
+		0C9169F718F1695100938D36 /* SneakyButtonSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyButtonSkinnedBase.h; sourceTree = "<group>"; };
+		0C9169F818F1695100938D36 /* SneakyButtonSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyButtonSkinnedBase.m; sourceTree = "<group>"; };
+		0C9169F918F1695100938D36 /* SneakyJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystick.h; sourceTree = "<group>"; };
+		0C9169FA18F1695100938D36 /* SneakyJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystick.m; sourceTree = "<group>"; };
+		0C9169FB18F1695100938D36 /* SneakyJoystickSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystickSkinnedBase.h; sourceTree = "<group>"; };
+		0C9169FC18F1695100938D36 /* SneakyJoystickSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedBase.m; sourceTree = "<group>"; };
+		0C916A0118F1722900938D36 /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePlayScene.h; path = Classes/GamePlayScene.h; sourceTree = "<group>"; };
+		0C916A0218F1722900938D36 /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePlayScene.m; path = Classes/GamePlayScene.m; sourceTree = "<group>"; };
+		0C916A0518F1827900938D36 /* scene1atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scene1atlas.plist; sourceTree = "<group>"; };
+		0C916A0618F1827900938D36 /* scene1atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene1atlas.png; sourceTree = "<group>"; };
+		0C916A0718F1827900938D36 /* scene1atlasiPhone-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "scene1atlasiPhone-hd.plist"; sourceTree = "<group>"; };
+		0C916A0818F1827900938D36 /* scene1atlasiPhone-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scene1atlasiPhone-hd.png"; sourceTree = "<group>"; };
+		0C916A0918F1827900938D36 /* scene1atlasiPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scene1atlasiPhone.plist; sourceTree = "<group>"; };
+		0C916A0A18F1827900938D36 /* scene1atlasiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene1atlasiPhone.png; sourceTree = "<group>"; };
+		0C916A1218F1972300938D36 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		0C916A1318F1972300938D36 /* backgroundiPhone-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundiPhone-hd.png"; sourceTree = "<group>"; };
+		0C916A1418F1972300938D36 /* backgroundiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundiPhone.png; sourceTree = "<group>"; };
+		0C916A1918F2830E00938D36 /* dpadDown-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dpadDown-hd.png"; sourceTree = "<group>"; };
+		0C916A1A18F2830E00938D36 /* dpadDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpadDown.png; sourceTree = "<group>"; };
+		0C916A1B18F2830E00938D36 /* dpadUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpadUp.png; sourceTree = "<group>"; };
+		0C916A1C18F2830E00938D36 /* handDown-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handDown-hd.png"; sourceTree = "<group>"; };
+		0C916A1D18F2830E00938D36 /* handDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handDown.png; sourceTree = "<group>"; };
+		0C916A1E18F2830E00938D36 /* handUp-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handUp-hd.png"; sourceTree = "<group>"; };
+		0C916A1F18F2830E00938D36 /* handUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handUp.png; sourceTree = "<group>"; };
+		0C916A2018F2830E00938D36 /* joystickDown-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "joystickDown-hd.png"; sourceTree = "<group>"; };
+		0C916A2118F2830E00938D36 /* joystickDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystickDown.png; sourceTree = "<group>"; };
+		0C916A2218F2830E00938D36 /* joystickUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystickUp.png; sourceTree = "<group>"; };
+		0C916A2318F2830E00938D36 /* jumpDown-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jumpDown-hd.png"; sourceTree = "<group>"; };
+		0C916A2418F2830E00938D36 /* jumpDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jumpDown.png; sourceTree = "<group>"; };
+		0C916A2518F2830E00938D36 /* jumpUp-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jumpUp-hd.png"; sourceTree = "<group>"; };
+		0C916A2618F2830E00938D36 /* jumpUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jumpUp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -724,6 +785,7 @@
 		0C91674018F1386800938D36 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0C916A0418F1827900938D36 /* Images */,
 				0C91674118F1386800938D36 /* Default.png */,
 				0C91674318F1386800938D36 /* Default@2x.png */,
 				0C91674518F1386800938D36 /* Default-568h@2x.png */,
@@ -1540,14 +1602,80 @@
 		0C9169CE18F1386C00938D36 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0C9169F418F1695100938D36 /* SneakyInput */,
 				0C9169CF18F1386C00938D36 /* AppDelegate.h */,
 				0C9169D018F1386C00938D36 /* AppDelegate.m */,
 				0C9169D218F1386C00938D36 /* HelloWorldScene.h */,
 				0C9169D318F1386C00938D36 /* HelloWorldScene.m */,
 				0C9169D518F1386C00938D36 /* IntroScene.h */,
 				0C9169D618F1386C00938D36 /* IntroScene.m */,
+				0C916A0118F1722900938D36 /* GamePlayScene.h */,
+				0C916A0218F1722900938D36 /* GamePlayScene.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		0C9169F418F1695100938D36 /* SneakyInput */ = {
+			isa = PBXGroup;
+			children = (
+				0C9169F518F1695100938D36 /* SneakyButton.h */,
+				0C9169F618F1695100938D36 /* SneakyButton.m */,
+				0C9169F718F1695100938D36 /* SneakyButtonSkinnedBase.h */,
+				0C9169F818F1695100938D36 /* SneakyButtonSkinnedBase.m */,
+				0C9169F918F1695100938D36 /* SneakyJoystick.h */,
+				0C9169FA18F1695100938D36 /* SneakyJoystick.m */,
+				0C9169FB18F1695100938D36 /* SneakyJoystickSkinnedBase.h */,
+				0C9169FC18F1695100938D36 /* SneakyJoystickSkinnedBase.m */,
+			);
+			name = SneakyInput;
+			path = External/SneakyInput;
+			sourceTree = "<group>";
+		};
+		0C916A0418F1827900938D36 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0C916A1818F2830E00938D36 /* Joystick */,
+				0C916A1118F1972300938D36 /* background */,
+				0C916A0518F1827900938D36 /* scene1atlas.plist */,
+				0C916A0618F1827900938D36 /* scene1atlas.png */,
+				0C916A0718F1827900938D36 /* scene1atlasiPhone-hd.plist */,
+				0C916A0818F1827900938D36 /* scene1atlasiPhone-hd.png */,
+				0C916A0918F1827900938D36 /* scene1atlasiPhone.plist */,
+				0C916A0A18F1827900938D36 /* scene1atlasiPhone.png */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		0C916A1118F1972300938D36 /* background */ = {
+			isa = PBXGroup;
+			children = (
+				0C916A1218F1972300938D36 /* background.png */,
+				0C916A1318F1972300938D36 /* backgroundiPhone-hd.png */,
+				0C916A1418F1972300938D36 /* backgroundiPhone.png */,
+			);
+			path = background;
+			sourceTree = "<group>";
+		};
+		0C916A1818F2830E00938D36 /* Joystick */ = {
+			isa = PBXGroup;
+			children = (
+				0C916A1918F2830E00938D36 /* dpadDown-hd.png */,
+				0C916A1A18F2830E00938D36 /* dpadDown.png */,
+				0C916A1B18F2830E00938D36 /* dpadUp.png */,
+				0C916A1C18F2830E00938D36 /* handDown-hd.png */,
+				0C916A1D18F2830E00938D36 /* handDown.png */,
+				0C916A1E18F2830E00938D36 /* handUp-hd.png */,
+				0C916A1F18F2830E00938D36 /* handUp.png */,
+				0C916A2018F2830E00938D36 /* joystickDown-hd.png */,
+				0C916A2118F2830E00938D36 /* joystickDown.png */,
+				0C916A2218F2830E00938D36 /* joystickUp.png */,
+				0C916A2318F2830E00938D36 /* jumpDown-hd.png */,
+				0C916A2418F2830E00938D36 /* jumpDown.png */,
+				0C916A2518F2830E00938D36 /* jumpUp-hd.png */,
+				0C916A2618F2830E00938D36 /* jumpUp.png */,
+			);
+			path = Joystick;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1621,17 +1749,36 @@
 				0C91674418F1386800938D36 /* Default@2x.png in Resources */,
 				0C91675718F1386800938D36 /* Icon-120.png in Resources */,
 				0C91695B18F1386C00938D36 /* LICENSE_CCBReader.txt in Resources */,
+				0C916A0E18F1827900938D36 /* scene1atlasiPhone-hd.png in Resources */,
 				0C91674D18F1386800938D36 /* Icon@2x.png in Resources */,
 				0C91675F18F1386800938D36 /* Icon-Small@2x.png in Resources */,
+				0C916A1618F1972300938D36 /* backgroundiPhone-hd.png in Resources */,
 				0C91675118F1386800938D36 /* Icon-72@2x.png in Resources */,
+				0C916A2E18F2830E00938D36 /* joystickDown-hd.png in Resources */,
+				0C916A0C18F1827900938D36 /* scene1atlas.png in Resources */,
 				0C91674218F1386800938D36 /* Default.png in Resources */,
+				0C916A0F18F1827900938D36 /* scene1atlasiPhone.plist in Resources */,
+				0C916A0B18F1827900938D36 /* scene1atlas.plist in Resources */,
+				0C916A1718F1972300938D36 /* backgroundiPhone.png in Resources */,
+				0C916A3018F2830E00938D36 /* joystickUp.png in Resources */,
+				0C916A3118F2830E00938D36 /* jumpDown-hd.png in Resources */,
 				0C91674B18F1386800938D36 /* Icon.png in Resources */,
+				0C916A2818F2830E00938D36 /* dpadDown.png in Resources */,
 				0C91675918F1386800938D36 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
 				0C91674818F1386800938D36 /* Default-Landscape~ipad.png in Resources */,
 				0C91675D18F1386800938D36 /* Icon-Small.png in Resources */,
+				0C916A1518F1972300938D36 /* background.png in Resources */,
+				0C916A2918F2830E00938D36 /* dpadUp.png in Resources */,
+				0C916A2718F2830E00938D36 /* dpadDown-hd.png in Resources */,
 				0C91675B18F1386800938D36 /* Icon-Small-50.png in Resources */,
 				0C91694418F1386C00938D36 /* LICENSE_Kazmath.txt in Resources */,
+				0C916A3318F2830E00938D36 /* jumpUp-hd.png in Resources */,
+				0C916A1018F1827900938D36 /* scene1atlasiPhone.png in Resources */,
+				0C916A2F18F2830E00938D36 /* joystickDown.png in Resources */,
+				0C916A2A18F2830E00938D36 /* handDown-hd.png in Resources */,
+				0C916A3418F2830E00938D36 /* jumpUp.png in Resources */,
 				0C91674F18F1386800938D36 /* Icon-72.png in Resources */,
+				0C916A2B18F2830E00938D36 /* handDown.png in Resources */,
 				0C91689D18F1386A00938D36 /* LICENSE_cocos2d.txt in Resources */,
 				0C91674618F1386800938D36 /* Default-568h@2x.png in Resources */,
 				0C91676618F1386800938D36 /* iTunesArtwork in Resources */,
@@ -1641,6 +1788,10 @@
 				0C91676318F1386800938D36 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				0C91675318F1386800938D36 /* Icon-76.png in Resources */,
 				0C91692918F1386B00938D36 /* ChangeLog in Resources */,
+				0C916A3218F2830E00938D36 /* jumpDown.png in Resources */,
+				0C916A0D18F1827900938D36 /* scene1atlasiPhone-hd.plist in Resources */,
+				0C916A2D18F2830E00938D36 /* handUp.png in Resources */,
+				0C916A2C18F2830E00938D36 /* handUp-hd.png in Resources */,
 				0C91676818F1386800938D36 /* iTunesArtwork@2x in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1668,6 +1819,7 @@
 				0C91679218F1386800938D36 /* CCClippingNode.m in Sources */,
 				0C91682518F1386A00938D36 /* CCSpriteBatchNode.m in Sources */,
 				0C91684918F1386A00938D36 /* CCTransition.m in Sources */,
+				0C916A0318F1722900938D36 /* GamePlayScene.m in Sources */,
 				0C91682818F1386A00938D36 /* CCSpriteFrame.m in Sources */,
 				0C9167BC18F1386900938D36 /* CCNodeColor.m in Sources */,
 				0C91689518F1386A00938D36 /* TransformUtils.m in Sources */,
@@ -1715,6 +1867,7 @@
 				0C9167C718F1386900938D36 /* CCMotionStreak.m in Sources */,
 				0C91677718F1386800938D36 /* CCActionInstant.m in Sources */,
 				0C91687118F1386A00938D36 /* base64.c in Sources */,
+				0C9169FD18F1695100938D36 /* SneakyButton.m in Sources */,
 				0C9168B018F1386B00938D36 /* OALAudioTrack.m in Sources */,
 				0C9167F318F1386900938D36 /* CCProgressNode.m in Sources */,
 				0C9167E618F1386900938D36 /* CCPhysicsBody.m in Sources */,
@@ -1723,8 +1876,10 @@
 				0C91693618F1386B00938D36 /* plane.c in Sources */,
 				0C9168B918F1386B00938D36 /* OALSimpleAudio.m in Sources */,
 				0C9167AB18F1386900938D36 /* CCGLProgram.m in Sources */,
+				0C916A0018F1695100938D36 /* SneakyJoystickSkinnedBase.m in Sources */,
 				0C9169CD18F1386C00938D36 /* main.m in Sources */,
 				0C9168E018F1386B00938D36 /* OALAudioSession.m in Sources */,
+				0C9169FE18F1695100938D36 /* SneakyButtonSkinnedBase.m in Sources */,
 				0C91695718F1386C00938D36 /* CCBLocalizationManager.m in Sources */,
 				0C91684318F1386A00938D36 /* CCTiledMapObjectGroup.m in Sources */,
 				0C91694018F1386C00938D36 /* vec3.c in Sources */,
@@ -1751,6 +1906,7 @@
 				0C91693418F1386B00938D36 /* neon_matrix_impl.c in Sources */,
 				0C9167B918F1386900938D36 /* CCLabelTTF.m in Sources */,
 				0C91686E18F1386A00938D36 /* NSEvent+CC.m in Sources */,
+				0C9169FF18F1695100938D36 /* SneakyJoystick.m in Sources */,
 				0C9168CB18F1386B00938D36 /* ALDevice.m in Sources */,
 				0C91693E18F1386C00938D36 /* vec2.c in Sources */,
 				0C91676E18F1386800938D36 /* CCAction.m in Sources */,

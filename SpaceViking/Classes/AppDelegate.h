@@ -9,5 +9,10 @@
 
 #import "cocos2d.h"
 
+#define UIAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
 @interface AppDelegate : CCAppDelegate
+
+@property (nonatomic, strong) CCSpriteBatchNode *sprteBatchNode;
+
 @end
